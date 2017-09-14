@@ -1,8 +1,12 @@
-// example: script tag
+// 1.2 - example: script tag
 console.log("I'm JavaScript from external");
 
 
-// example: variables
+// 1.3 - example: use strict
+// 'use strict'; at the top of file to use modern JS
+
+
+// 1.4  - example: variables
 console.log("***VARIABLES***")
 let admin
 let name = 'John'
@@ -22,7 +26,7 @@ const BIRTHDAY = '24-02-1993'	// const in uppercase bcoz hard-coded
 const age = getAge(BIRTHDAY);	// const in lowercase because its dynamic
 
 
-// example: data types
+// 1.5 - example: data types
 console.log('***DATA TYPES***')
 
 // PRIMITIVE
