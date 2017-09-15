@@ -11,6 +11,18 @@ let anotherEmptyName = null
 let theName = emptyName || realName || anotherEmptyName || 'no name'
 console.log(theName) 	// nelson - returns first true value
 
+// checking for null or undefined
+let someValue = null;
+let anotherValue;
+// old way
+if (someValue === null){
+	anotherValue = 'a value'
+}
+console.log(anotherValue);
+// new way - using OR
+anotherValue = someValue || 'the value'
+console.log(anotherValue);
+
 
 // AND (&&) - first falsy
 // AND converts values to Boolean - returns first FALSE value
