@@ -1,3 +1,4 @@
+'use strict';
 // 1.2 - example: script tag
 console.log("I'm JavaScript from external");
 

@@ -1,3 +1,4 @@
+'use strict';
 // example: type conversions
 
 // to string
