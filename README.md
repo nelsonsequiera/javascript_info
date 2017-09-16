@@ -77,5 +77,21 @@ watch: {
   },
 }
 
-grunt watch jsdoc
+grunt watch
+```
+
+### Test setup:
+
+* mocha: http://mochajs.org/
+* chai: http://chaijs.com/
+* grunt open: https://www.npmjs.com/package/grunt-open
+
+setup guide: https://www.sitepoint.com/unit-test-javascript-mocha-chai/
+
+```
+
+* npm install --save-dev mocha chai
+* configure html and directory structure as in setup guide in above link.
+* npm install --save-dev grunt-open
+* run grunt open
 ```
