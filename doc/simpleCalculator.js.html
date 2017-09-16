@@ -33,7 +33,7 @@
 			<li class="dropdown">
 				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="global.html#add">add</a></li><li><a href="global.html#askInput">askInput</a></li><li><a href="global.html#click">click</a></li><li><a href="global.html#divide">divide</a></li><li><a href="global.html#main">main</a></li><li><a href="global.html#multiply">multiply</a></li><li><a href="global.html#showResult">showResult</a></li><li><a href="global.html#subtract">subtract</a></li>
+					<li><a href="global.html#add">add</a></li><li><a href="global.html#askInput">askInput</a></li><li><a href="global.html#click">click</a></li><li><a href="global.html#divide">divide</a></li><li><a href="global.html#multiply">multiply</a></li><li><a href="global.html#showDummyText">showDummyText</a></li><li><a href="global.html#showResult">showResult</a></li><li><a href="global.html#subtract">subtract</a></li>
 				</ul>
 			</li>
 			
@@ -82,6 +82,9 @@
  * 
  * @author nelson.sequiera
  */
+
+let showDummyText = () => console.log('im dummy')
+
 let main = () => {
 	let a = askInput('Please enter the first number');
 	let b = askInput('Please enter the second number');
@@ -104,6 +107,7 @@ let main = () => {
 	}
 
 	showResult(result);
+	showDummyText();
 }
 
 /**

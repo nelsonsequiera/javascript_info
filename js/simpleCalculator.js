@@ -10,6 +10,9 @@
  * 
  * @author nelson.sequiera
  */
+
+let showDummyText = () => console.log('im dummy')
+
 let main = () => {
 	let a = askInput('Please enter the first number');
 	let b = askInput('Please enter the second number');
@@ -32,6 +35,7 @@ let main = () => {
 	}
 
 	showResult(result);
+	showDummyText();
 }
 
 /**
