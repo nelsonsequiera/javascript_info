@@ -1,8 +1,10 @@
 'use strict';
 
 
-// call back functions
-
+/**
+ * call back functions
+ * @param  {function}
+ */
 function click(anonymousFunction){
 	console.log('this is click function');
 	anonymousFunction();
