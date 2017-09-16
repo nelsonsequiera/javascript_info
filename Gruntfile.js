@@ -19,8 +19,15 @@ module.exports = function(grunt) {
             },
           },
         },
+        open: {
+            file : {
+                app: 'Google Chrome',
+                path : 'test/testRunner.html'
+            },
+        }
     });
 
     grunt.loadNpmTasks('grunt-jsdoc');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-open');
 }
